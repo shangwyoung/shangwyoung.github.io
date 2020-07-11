@@ -1,0 +1,108 @@
+/* content */
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2 {
+  margin: 0px;
+  font-weight: 400;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+body {
+  background-color: #2e3131;
+}
+
+.Profile {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.Profile__LeftCol {
+  width: 40%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.Profile__LeftCol__Headshot {
+  height: 213px;
+  border-radius: 50%;
+}
+
+.Profile__RightCol {
+  color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.Profile__RightCol_Name {
+  margin-bottom: 5px;
+}
+
+.Profile__RightCol__Blurb {
+  font-style: italic;
+}
+
+.Profile__RightCol__Social {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn-social-icon{
+  margin-right: 15px;
+}
+
+@media (max-width: 740px) {
+  .Profile {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Profile__LeftCol {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .Profile__LeftCol__Headshot {
+    height: 160px;
+  }
+
+  .Profile__RightCol {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .Profile__RightCol_Name {
+    font-size: 30px;
+  }
+
+  .Profile__RightCol__Blurb {
+    font-size: 13px
+  }
+}
+
+
