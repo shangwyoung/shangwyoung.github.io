@@ -32,8 +32,12 @@ body {
   height: 100vh;
 }
 
+.Profile__LeftPadding,
+.Profile__RightPadding {
+  flex: 1 1 auto;
+}
+
 .Profile__LeftCol {
-  width: 40%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -46,7 +50,6 @@ body {
 
 .Profile__RightCol {
   color: white;
-  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
